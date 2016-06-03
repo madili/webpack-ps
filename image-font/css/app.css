@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Lora';
+    
+    src: url('../fonts/Lora-Regular.ttf');
+    src: url('../fonts/Lora-Italic.ttf');
+    src: url('../fonts/Lora-Bold.ttf');
+    src: url('../fonts/Lora-BoldItalic.ttf');
+}
+
+body {
+    padding-top: 80px;
+    font-family: 'Lora, Arial, Helvetica';
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #007C0C 0, #000C0C 100%);
+}
+
+.bg_header_img {
+    background: url('../images/webpack_logo.png') -131px 1px no-repeat;
+    margin-right: 15px;
+    height: 150px;
+    width: 150px; 
+}
+
+h3 {
+    font-size: 18px;
+}
+
